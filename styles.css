@@ -12,7 +12,7 @@
 
 .bar{
   min-width: 10px;
-  border: 1px  #e7dddd solid;    
+  border: 1px  #1f1b1b solid;    
 }
 
 .right {
@@ -30,7 +30,7 @@
 .shuffleArray{
   /* position: absolute; */
   margin-top: 31rem;
-  border: 2px solid white;
+  border: 2px solid rgb(54, 189, 117);
   /* display: block; */
 }
 .btn-secondary{
@@ -39,7 +39,7 @@
 
 .bar{
   min-width: 10px;
-  border: 1px white solid;    
+  border: 1px rgb(48, 170, 215) solid;    
 }
 
 #container{
