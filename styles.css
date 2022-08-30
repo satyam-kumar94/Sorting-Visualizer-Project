@@ -1,0 +1,48 @@
+*{
+  transition: all .2s ease-in-out;
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 100px;
+  max-width: 50%;
+}
+
+.bar{
+  min-width: 10px;
+  border: 1px  #e7dddd solid;    
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 148px;
+  margin-top: 5px;
+}
+
+.textLeft{
+  text-align: left;
+  padding: 18px;
+}
+
+.shuffleArray{
+  /* position: absolute; */
+  margin-top: 31rem;
+  border: 2px solid white;
+  /* display: block; */
+}
+.btn-secondary{
+  width: 250px;
+}
+
+.bar{
+  min-width: 10px;
+  border: 1px white solid;    
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting visualizer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            Sorting Visualiser
+        </a>
+        <button type="button" class="btn btn-secondary" id="shuffle" onclick="generateRandomArray()">Shuffle</button>
+    </nav>
+    <div class="row">
+        <div class="my-3">
+            <div>
+                <div id="container">
+                </div>
+            </div>
+            <div class="btn-group-vertical right" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary textLeft" onclick="bubble()">Bubble Sort</button>
+                <button type="button" class="btn btn-secondary textLeft" onclick="insertion()">Insertion Sort</button>
+                <button type="button" class="btn btn-secondary textLeft" onclick="mergeho()">Merge Sort</button>
+                <button type="button" class="btn btn-secondary textLeft" onclick="quick()">Quick Sort</button>
+                <button type="button" class="btn btn-secondary textLeft" onclick="selection()">Selection Sort </button>
+            </div>
+        </div>
+        <!-- <button type="button" class="btn btn-secondary" id="shuffle" onclick="generateRandomArray()" >Shuffle</button> -->
+    </div>
+
+    <div>
+        <!-- <center> <button type="button" class="btn btn-secondary" id="shuffle" onclick="generateRandomArray()" >Shuffle</button></center> -->
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="helper.js"></script>
+    <script src="sortingAlgo/bubbleSort.js"></script>
+    <script src="sortingAlgo/mergeSort.js"></script>
+    <script src="sortingAlgo/insertionSort.js"></script>
+    <script src="sortingAlgo/quickSort.js"></script>
+    <script src="sortingAlgo/selectionSort.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
